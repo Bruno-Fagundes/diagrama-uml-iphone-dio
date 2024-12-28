@@ -41,6 +41,7 @@ classDiagram
     }
 
     class NavegadorInternet {
+    
         +exemploMetodo1()
         +exemploMetodo2(String exemplo)
     }
