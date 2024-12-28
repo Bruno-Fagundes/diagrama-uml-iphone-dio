@@ -91,3 +91,6 @@ classDiagram
 ```bash
 https://github.com/glysns/trilha-java-basico/desafios/poo/README.md
 ```` 
+
+### Como executar 
+Para executar este código basta baixar o projeto e executar o arquivo Iphone.
