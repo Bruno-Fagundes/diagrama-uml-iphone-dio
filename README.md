@@ -53,6 +53,34 @@ classDiagram
     iPhone --> AparelhoTelefonico
     iPhone --> NavegadorInternet
 ```
+### Minha interpretação do Diagrama de Classes
+```mermaid
+classDiagram
+    class iPhone {
+    }
+
+    class ReprodutorMusical {
+        + tocar()
+        + pausar()
+        + selecionarMusica(String musica)
+    }
+
+    class AparelhoTelefonico {
+        + ligar(String numero)
+        + atender()
+        + iniciarCorreioVoz()
+    }
+
+    class NavegadorInternet {
+        + exibirPaginas()
+        + adicionarNovaAba()
+        + atualizarPagina()
+    }
+
+    iPhone --> ReprodutorMusical
+    iPhone --> AparelhoTelefonico
+    iPhone --> NavegadorInternet
+```
 
 ### Instruções
 1. Assista ao vídeo do lançamento do iPhone para entender as funcionalidades principais.
