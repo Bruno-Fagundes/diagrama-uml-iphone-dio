@@ -62,7 +62,7 @@ classDiagram
     class ReprodutorMusical {
         + tocar()
         + pausar()
-        + selecionarMusica(String musica)
+        + selecionarMusica()
     }
 
     class AparelhoTelefonico {
@@ -73,7 +73,7 @@ classDiagram
 
     class NavegadorInternet {
         + exibirPaginas()
-        + adicionarNovaAba()
+        + adicionarNovaAba(String url)
         + atualizarPagina()
     }
 
