@@ -53,6 +53,9 @@ classDiagram
     iPhone --> AparelhoTelefonico
     iPhone --> NavegadorInternet
 ```
+
+Feito por Bruno Fagundes
+
 ### Minha interpretação do Diagrama de Classes
 ```mermaid
 classDiagram
